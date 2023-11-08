@@ -1,3 +1,58 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
-  background-color: purple;
+  background-color: #131921;
+}
+
+header {
+  padding: 20px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+header nav img {
+  width: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+header nav .center {
+  width: 700px;
+  height: 40px;
+  display: flex;
+}
+header nav .center button {
+  padding: 14px;
+  font-size: 12px;
+  border-radius: 2px;
+  border: none;
+  background-color: #e2e1e1;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+header nav .center input {
+  flex: 1;
+  display: flex;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  outline: none;
+  border: none;
+}
+header nav .last-three {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 250px;
+}
+header nav .last-three h2 {
+  font-size: 15px;
+}
+header nav .last-three h3 {
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
