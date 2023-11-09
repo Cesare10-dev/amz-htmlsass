@@ -58,4 +58,13 @@ header {
       }
     }
   }
+  .cat {
+    color: white;
+    display: flex;
+    background-color: #242f3e;
+    h2 {
+      font-size: 16px;
+      margin-right: 10px;
+    }
+  }
 }

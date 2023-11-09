@@ -55,4 +55,13 @@ header nav .last-three h2 {
 }
 header nav .last-three h3 {
   font-size: 16px;
+}
+header .cat {
+  color: white;
+  display: flex;
+  background-color: #242f3e;
+}
+header .cat h2 {
+  font-size: 16px;
+  margin-right: 10px;
 }/*# sourceMappingURL=style.css.map */
