@@ -71,3 +71,24 @@ header {
     }
   }
 }
+
+main {
+  margin-top: 64px;
+  img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .deals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .deal {
+      background-color: white;
+      height: 400px;
+      width: 285px;
+      margin: 12px;
+    }
+  }
+}
