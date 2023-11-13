@@ -100,4 +100,13 @@ main .deals .deal img {
 main .deals .deal p {
   color: blue;
   font-size: 14px;
+}
+main .deals .deal .four {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .deals .deal .four img {
+  width: 120px;
+  height: 120px;
+  padding: 3px;
 }/*# sourceMappingURL=style.css.map */
