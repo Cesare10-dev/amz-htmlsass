@@ -87,4 +87,17 @@ main .deals .deal {
   height: 400px;
   width: 285px;
   margin: 12px;
+  padding: 15px;
+}
+main .deals .deal h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+main .deals .deal img {
+  height: 290px;
+  margin-bottom: 10px;
+}
+main .deals .deal p {
+  color: blue;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
